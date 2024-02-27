@@ -29,11 +29,12 @@ This is a dynamic Todo List web application built with React and styled with CSS
 
 1. Create a react app using the  following command:
 bash:
-npx  create-react-app todo-list-app 
-2. replace the respective files with the files in this repository
-3. Clone the repository and Navigate to the project directory:
-4. Install the dependencies:
-5. Start the development server:
+npx  create-react-app todo-list-app
+
+3. Clone the repository and Navigate to the project directory.
+4. Replace the respective files with the files in this repository.
+5. Install the dependencies.
+6. Start the development server.
 
 The application will be available at `http://localhost:3000`.
 
