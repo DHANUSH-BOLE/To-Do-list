@@ -1,0 +1,125 @@
+
+body {
+    background-image: url(https://wallpapercosmos.com/cdn-cgi/image/width=1600,quality=40,format=auto/w/full/b/a/9/1209998-3840x2160-desktop-4k-glow-in-the-dark-background-photo.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: antiquewhite;
+  height: 20px;
+  text-align: center;
+   font-family: "Brush Script MT", cursive; font-size: 30px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 26.4px; 
+  } 
+
+
+.todo-input {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.todo-input textarea {
+  flex: 1;
+  height: 30px;
+}
+
+.todo-input button {
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: disc ;
+  color: aqua;
+  padding: 0;
+}
+
+li {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(241, 232, 232);
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(241, 234, 234, 0.164);
+  cursor: pointer;
+  transition-duration: .3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.svgIcon {
+  width: 5px;
+  transition-duration: .3s;
+}
+
+.svgIcon path {
+  height: auto;
+  fill: white;
+}
+
+.button:hover {
+  width: 80px;
+  border-radius: 50px;
+  transition-duration: .3s;
+  background-color: rgb(255, 69, 69);
+  align-items: center;
+}
+
+.button:hover.svgIcon {
+  width: 50px;
+  transition-duration: .3s;
+  transform: translateY(50px);
+}
+
+.button::before {
+  position: absolute;
+  top: -20px;
+  content: "Delete";
+  color: white;
+  transition-duration: .3s;
+  font-size: 2px;
+}
+
+.button:hover::before {
+  font-size: 13px;
+  opacity: 1;
+  transform: translateY(30px);
+  transition-duration: .3s;
+}
+
+.testbutton {
+  font-family: 'comic sans ms';
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 2px 3px 1px #9BF990;
+  padding: 4px 15px;
+  border-radius: 10px;
+  border: 0px solid #3866A3;
+  background: #69EE39;
+  background: linear-gradient(to top, #69EE39, #6EFC0F);
+}
+
+.testbutton:hover {
+  color: #6C8CF5 !important;
+  background: #4ECF27;
+  background: linear-gradient(to top, #4ECF27, #57F707);
+}
